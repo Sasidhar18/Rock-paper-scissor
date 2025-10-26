@@ -61,7 +61,7 @@
 /* Rock */
 .play .items .icon--rock {
   background-color: #fff;
-  background-image: url("../src/assets/icon-rock.svg");
+  background-image: url("../../assets/icon-paper.svg");
   background-position: center;
   background-repeat: no-repeat;
   border-color: hsl(349, 71%, 52%);
