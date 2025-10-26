@@ -29,7 +29,7 @@
 /* Paper */
 .play .items .icon--paper {
   background-color: #fff;
-  background-image: url("../src/assets/icon-paper.svg");
+  background-image: url("../../assets/icon-paper.svg");
   background-position: center;
   background-repeat: no-repeat;
   border-color: hsl(230, 89%, 62%);
@@ -45,7 +45,7 @@
 /* Scissors */
 .play .items .icon--scissors {
   background-color: #fff;
-  background-image: url("../src/assets/icon-scissors.svg");
+  background-image: url("../../assets/icon-scissors.svg");
   background-position: center;
   background-repeat: no-repeat;
   border-color: hsl(39, 89%, 49%);
