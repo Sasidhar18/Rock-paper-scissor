@@ -1,7 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import './Style/Game.css';
-
+import { useEffect, useState } from "react";
+import "./Style/Game.css";
 
 const Game = ({ score, myChoice, setScore, setPlayed }) => {
   const [house, setHouse] = useState("");
@@ -57,7 +55,7 @@ const Game = ({ score, myChoice, setScore, setPlayed }) => {
   const handlePlayAgain = () => {
     setHouse();
     setPlayed(false);
-  }
+  };
 
   return (
     <div className="game">
@@ -72,7 +70,7 @@ const Game = ({ score, myChoice, setScore, setPlayed }) => {
       {playerWin == "win" && (
         <div className="game__play">
           <span className="text">You Win</span>
-          <div  className="play-again" onClick={handlePlayAgain}>
+          <div className="play-again" onClick={handlePlayAgain}>
             Play Again
           </div>
         </div>
